@@ -1,200 +1,130 @@
-# Code related to go training tasks.
+# Go Training Tasks
 
-[task-sheet-1]:
+## Task Sheet 1
 
-**Basic.go**
+### Basic.go
+Contains all project code (used to learn all concepts)
 
-    Contains all project (was used to learn all of them)
+### concatenatesStr.go
+Write a program that concatenates strings, finds the length of a string, and accesses individual characters. Print the results.
 
-**concatenatesStr.go**
+### logicOperations.go
+Write a program that uses boolean variables and performs logical operations (AND, OR, NOT). Print the results.
 
-    Write a program that concatenates strings, finds the length of a string,
-    and accesses individual characters. Print the results.
+### limitDiff.go
+Write a program that demonstrates the limits of different data types (e.g., maximum and minimum values for int and float64). Print the limits.
 
-**logicOperations.go**
+### convert.go
+Write a program that demonstrates type conversion between int, float64, and string. Convert an integer to a float64, a float64 to an integer, and an integer to a string. Print the results.
 
-    Write a program that uses boolean variables and performs logical
-    operations (AND, OR, NOT). Print the results.
+### operations.go
+Write a program that performs basic arithmetic operations (addition, subtraction, multiplication, division) on integer and float64 variables. Print the results.
 
-**limitDiff.go**
+### const.go
+Write a program that defines constants for mathematical values like Pi and the gravitational constant. Print these constants.
 
-    Write a program that demonstrates the limits of different data types
-    (e.g., maximum and minimum values for int and float64). Print the
-    limits.
+### varinf.go
+Write a program that uses type inference and short variable declaration to initialize variables. Print the values of these variables.
 
-**convert.go**
+### var.go
+Write a program that declares and initializes variables of different data types (int, float64, string, bool). Print the values of these variables.
 
-    Write a program that demonstrates type conversion between int,
-    loat64, and string. Convert an integer to a float64, a float64 to an
-    integer, and an integer to a string. Print the results.
+## Task Sheet 2
 
-**operations.go**
+### FizzBuzz.go
+Write a program that prints the numbers from 1 to 100. For multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
 
-    Write a program that performs basic arithmetic operations (addition,
-    subtraction, multiplication, division) on integer and float64 variables.
-    Print the results.
+### primeNumber.go
+Write a program that finds and prints all the prime numbers up to 100.
 
-**const.go**
+### sumOfDigitOfNum.go
+Write a program that takes an integer and returns the sum of its digits.
 
-    Write a program that defines constants for mathematical values like Pi
-    and the gravitational constant. Print these constants.
+### fibonacci.go
+Write a function that takes an integer n and returns the n-th Fibonacci number. Use recursion and memoization.
 
-**varinf.go**
+### factorial.go
+Write a function that takes an integer n and returns the factorial of n. Implement both iterative and recursive versions.
 
-    Write a program that uses type inference and short variable declaration
-    to initialise variables. Print the values of these variables.
+### palnidrome.go
+Write a function that takes a string and returns true if the string is a palindrome, and false otherwise.
 
-**var.go**
+### collatzConjecture.go
+Write a program that takes a number n and returns the number of steps to reach 1 by following these rules: if n is even, divide it by 2; if n is odd, multiply it by 3 and add 1.
 
-    Write a program that declares and initialises variables of different data
-    types (int, float64, string, bool). Print the values of these variables.
+### sumOfMultiples.go
+Write a program that finds the sum of all multiples of 3 or 5 below 1000.
 
-[task-sheet-2]:
+### GCD.go
+Write a function that takes two integers and returns their greatest common divisor using Euclidean algorithm.
 
-**FizzBuzz.go**
+### Anagrams.go
+Write a function that takes two strings and returns true if they are anagrams of each other.
 
-    Write a program that prints the numbers from 1 to 100. For
-    multiples of three, print "Fizz" instead of the number, and for the multiples of
-    five, print "Buzz". For numbers which are multiples of both three and five, print
-    "FizzBuzz".
+### GuessNum.go
+Write a program that generates a random number between 1 and 100. The user has to guess the number. After each guess, the program should indicate whether the guess was too low, too high, or correct. Limit the number of guesses to 10.
 
-**primeNumber.go**
+## Task Sheet 3
 
-    Write a program that finds and prints all the prime numbers up to
-    100.
+### arrRotate.go
+Write a function that rotates an array to the right by k steps.
 
-**sumOfDigitOfNum.go**
+### medianArr.go
+Write a function that finds the median of a given array.
 
-    Write a program that takes an integer and returns the sum of its
-    digits.
+### wordFq.go
+Write a function that finds the frequency of each word in a given array.
 
-**fibonacci.go**
+### anagramGrouping.go
+Write a function that takes a list of strings and groups anagrams together in a map.
 
-    Write a function that takes an integer n and returns the n-th
-    Fibonacci number. Use recursion and memoization.
+### empID.go
+Define a struct to represent an employee with fields for ID, name, position, and salary. Write functions to create a new employee, give a raise, and display employee details.
 
-**factorial.go**
+### libSys.go
+Create a struct to represent a book with fields for title, author, ISBN, and whether it's available. Write functions to add a new book, borrow a book, return a book, and display book details.
 
-    Write a function that takes an integer n and returns the factorial
-    of n. Implement both iterative and recursive versions.
+### swapVar.go
+Write a function that swaps the values of two variables using pointers.
 
-**palnidrome.go**
+### pointerToStruct.go
+Define a struct to represent a rectangle with length and width. Write functions to calculate the area and perimeter using a pointer to the struct.
 
-    Write a function that takes a string and returns true if the string is
-    a palindrome, and false otherwise.
+### linkedList.go
+Implement a simple linked list using structs and pointers. Include methods for adding a node to the list, deleting a node, and displaying the list.
 
-**collatzConjecture.go**
-    Write a program that takes a number n and returns the number of
-    steps to reach 1 by following these rules: if n is even, divide it by 2; if n is odd,
-    multiply it by 3 and add 1.
+### linkedListGeneric.go
+Implement a simple linked list using structs and pointers. Include methods for adding a node to the list, deleting a node, and displaying the list. [linked list while using generic types]
 
-**sumOfMultiples.go**
+### fileReaderHandling.go
+Write a program that reads a file and prints its contents. Ensure the program handles errors appropriately, such as when the file does not exist or cannot be opened.
 
-    Write a program that finds the sum of all multiples of 3 or 5 below
-    1000.
+### httpErrHandle.go
 
-**GCD.go**
+ Write a program that makes an HTTP GET request to a specified
+ URL and prints the response body. Ensure the program handles errors, such as
+ network issues or non-200 status codes
 
-    Write a function that takes two integers and returns their greatest
-    common divisor using Euclidean algorithm.
+### modifySliceptr.go
 
-**Anagrams.go**
+Write a function that takes a pointer to a slice and modifies its
+elements.
 
-    Write a function that takes two strings and returns true if they are
-    anagrams of each other.
+### errHandleDivision.go
 
-**GuessNum.go**
+Write a function that performs division of two integers. The
+function should return an error if the divisor is zero.
 
-    Write a program that generates a random number between 1 and
-    100. The user has to guess the number. After each guess, the program should
-    indicate whether the guess was too low, too high, or correct. Limit the number
-    of guesses to 10.
+### errHandleIntPrasesStr.go
 
-[task-sheet-3]:
+Create a custom error type to handle specific errors in a function
+that parses an integer from a string.
 
-**arrRotate.go**
+### expoBackoff.go
 
-    Write a function that rotates an array to the right by k steps.
-
-**medianArr.go**
-
-    Write a function that finds the median of a given array.
-
-**wordFq.go**
-
-    Write a function that finds the median of a given array.
-
-**anagramGrouping.go**
-
-    Write a function that takes a list of strings and groups anagrams.
-    together in a map.
-
-**empID.go**
-
-    Define a struct to represent an employee with fields for ID, name,
-    position, and salary. Write functions to create a new employee, give a raise,
-    and display employee details.
-
-**libSys.go**
-
-    Create a struct to represent a book with fields for title, author,
-    ISBN, and whether it's available. Write functions to add a new book, borrow a
-    book, return a book, and display book details.
-
-**swapVar.go**
-
-    Write a function that swaps the values of two variables using
-    pointers.
-
-**pointerToStruct.go**
-
-    Define a struct to represent a rectangle with length and width.
-    Write functions to calculate the area and perimeter using a pointer to the
-    struct.
-
-**linkedList.go**
-
-    Implement a simple linked list using structs and pointers. Include
-    methods for adding a node to the list, deleting a node, and displaying the list.
-
-**linkedListGeneric.go**
-
-     Implement a simple linked list using structs and pointers. Include
-    methods for adding a node to the list, deleting a node, and displaying the list.
-    [linked list while using generic types]
-
-**fileReaderHandling.go**
-
-    Write a program that reads a file and prints its contents. Ensure
-    the program handles errors appropriately, such as when the file does not exist
-    or cannot be opened.
-
-**httpErrHandle.go**
-
-    Write a program that makes an HTTP GET request to a specified
-    URL and prints the response body. Ensure the program handles errors, such as
-    network issues or non-200 status codes
-
-**modifySliceptr.go**
-
-    Write a function that takes a pointer to a slice and modifies its
-    elements.
-
-**errHandleDivision.go**
-
-    Write a function that performs division of two integers. The
-    function should return an error if the divisor is zero.
-
-**errHandleIntPrasesStr.go**
-
-     Create a custom error type to handle specific errors in a function
-    that parses an integer from a string.
-
-**expoBackoff.go**
-
-    Write a function that retries an operation (e.g., an HTTP request)
-    with exponential backoff in case of failure. Limit the number of retries to a
-    maximum.
+Write a function that retries an operation (e.g., an HTTP request)
+with exponential backoff in case of failure. Limit the number of retries to a
+maximum.
 
 [task-sheet-4]:
 
